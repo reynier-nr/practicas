@@ -1,0 +1,55 @@
+/*DOCUMENTO*/
+
+header, div, article, nav, main, footer, aside {box-sizing: border-box; }
+
+
+    
+    .body {
+      font-family: Arial, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      background-color: burlywood;
+    }
+
+    header, footer {
+        font-weight: bold;
+      background-color: #da945f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .container {padding-left: 35px;
+        display: flex; flex-wrap: wrap; margin: auto; width: 80%; }
+    section.container div h3 {padding: 10px 20px; }
+
+    .Foto-de-perfil {
+
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 1rem;
+    }
+
+    .skills {display: flex; }
+    .skills div {width: 40%; }
+   
+
+    a.item {width: 33.33%; min-height: 200px; 
+        text-align: center; 
+        font-size: 4em; 
+        color: rgba(233, 125, 71, 0.937); }
+.centrar{
+    text-align: center;
+    justify-items: center;
+    
+}
+a{
+    color: black;;
+    text-decoration: none;
+}
+a:hover{
+    color: #da945f;;
+}
+    

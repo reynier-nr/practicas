@@ -1,0 +1,40 @@
+/*DOCUMENT*/
+
+header, div, article, nav, main, footer, aside {box-sizing: border-box;}
+
+body head {text-align: center; text-transform: uppercase;
+            font-size: 20px; padding: 30px; font-family: 'Times New Roman', Times, serif;
+            background-color: darksalmon; border-color: brown;}
+
+    div.ingre {width: 70%; min-height: 1px; }
+
+#contenedor {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(245, 203, 88);
+   }
+   
+   #lateral {
+    width: 75%;  
+    background-color: #da0f0f;  
+    float:right; 
+   }
+   
+   #principal {
+    width: 75%;
+    float: left;
+    background-color: #3f6427;
+    border:#ffffff 1px solid; 
+   }
+
+ 
+   .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+    }
+
+    .container {display: flex; flex-wrap: wrap; margin: auto; width: 80%;}
+    .item { width: 50%;}
+    .item img { width: 100%; height: auto;}

@@ -1,0 +1,13 @@
+/*Documento css*/ 
+* { font-size: 20px;} /*selector universal*/
+body { background-color: rgb(227, 222, 155);
+color:firebrick}
+    
+h1{ color:red;
+     text-align: center;
+    text-decoration: underline; }
+h2{ color: darkolivegreen;}
+h3{ color: crimson;}
+
+.antencion { color: cornflowerblue;}
+.isq { float: left; }

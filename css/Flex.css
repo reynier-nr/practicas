@@ -1,0 +1,27 @@
+/*DOCUMENTO*/
+
+* {margin: 0;
+    padding: 0; }
+
+header, section, article, footer, div, nav, aside, main {box-sizing: border-box;}    
+
+#gallery { width: 100%;
+            min-height: 1px;}
+
+.container { display: flex;
+            /*flex-direction: column-reverse;*/
+            /*flex-wrap: wrap;*/
+            flex-flow: row wrap;
+            width: 70%;
+            min-height: 1px;
+            background-color: rgba(109, 217, 212, 0.512);
+            margin: auto;
+            padding: 15px;
+            text-align: center;
+            color: azure;
+            font-size: 2cm; }
+
+.items { width: 33.33%;
+        height: 100px;
+        background-color: darkorchid;
+        border-radius: 15px;} 

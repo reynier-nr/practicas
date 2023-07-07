@@ -1,0 +1,16 @@
+/*DOCUMENTO*/
+
+.cabecera {}
+
+.social {}
+
+.container {display:flex;
+            width: 90%;
+            margin:auto; }
+
+.item {}
+
+a.item  {width: 33.33%;
+        min-height: 200px;
+        text-align: center; }
+

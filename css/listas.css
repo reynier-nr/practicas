@@ -1,0 +1,17 @@
+/*Documento css*/
+
+*{ margin: 0px;
+padding: 0px; }
+
+body { background-color: burlywood;}
+
+h1 { text-align: center;
+padding: 20px 0px 20px 0px;
+background-color: brown;
+color: cadetblue;
+text-transform: capitalize;
+}
+
+.caja {display: block; }
+,image { margin: auto; 
+display: block;}

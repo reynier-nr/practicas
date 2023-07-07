@@ -1,0 +1,47 @@
+/*DOCUMENTO*/
+
+*{margin: 0px; padding: 0px;}
+
+#productos {width: 100%;
+    min-height: 1px;
+    background-color: darkkhaki; color: black;
+    padding: 30px 0px;}
+
+.container {width: 70%;
+            min-height: 1px;
+            display: flex; margin: 0px auto; }
+
+/* display flex convierte el elemento a un objeto flexible */
+/* margin para centrar*/
+
+.item {width: 33.33%; 
+        text-align: center;
+        min-height: 150px; background-image: url(../img/wlop.jpg); 
+        background-size: 100% 100%;}
+
+.item::after { content: "Vendido";
+                display: block;
+            width: 100%;
+            padding: 8px;
+            text-transform: uppercase;
+            margin-top: 95px;
+            transform: rotate(-45deg);
+            position: relative;
+            top: -15px;
+            left: 35px; 
+            font-weight: bolder;
+            font-size: xx-large; }
+        
+
+.contenido { padding: 35px; }
+
+.contenido p {line-height: 1,5;}
+
+.contenido p::first-letter {font-size: 2cm; float: left; margin-right: 3px;}
+
+/*ESPECIFICIDAD*/
+body section.contenido p {background-color: darkkhaki; }
+
+body {font-family:Georgia, 'Times New Roman', Times, serif; font-size: larger; padding: 30px 0px;}
+
+h2 {font-family: 'Courier New', Courier, monospace; font-size:xx-large;}

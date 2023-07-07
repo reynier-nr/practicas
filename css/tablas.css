@@ -1,0 +1,42 @@
+/*DOCUMENTO CSS*/
+
+*{ margin: 0px;
+   padding: 0px; }
+
+.cabecera {text-align: center;
+            height: 90px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: rgb(212, 194, 176);
+            margin-bottom: 20px; }
+
+table { margin: auto;
+        margin-bottom: 20px;}    
+
+
+h1 { width: 100% ;
+    min-height: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(227, 151, 107);
+    color: rgb(254, 253, 254); }
+
+table {background-color: rgb(109, 161, 181);}
+
+    
+.tablas { margin: 20px auto 10px auto }
+
+.tablas tr:first-child {margin: 20px auto 10px auto;
+            background-color: cadetblue;}
+
+/* .tablas tr:nth-child(#) - selección de otro hijo */
+/* .tablas tr:nth-child(odd) - intercambia color */
+
+
+.videos {margin-top: 20px 0px; text-align: center;
+            display: flex;  }
+
+        
+
+
+

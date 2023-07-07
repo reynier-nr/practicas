@@ -1,0 +1,16 @@
+body{
+    background-color: #EDEDED;
+}
+.fondo{
+    background-color: #F08F81;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    height: 200px;
+    background-color: #F08F81;
+    color: white;
+    font-size: 14px;
+    padding-top: 12px;
+        }
